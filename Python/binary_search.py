@@ -33,13 +33,7 @@ class Solution:
     def search(self, nums: List[int], target: int) -> int:
         initialPoint = 0
         finalPoint = len(nums) - 1
-        if nums[initialPoint] > target or nums[finalPoint] < target:
-            return -1
         while initialPoint <= finalPoint:
-            if nums[initialPoint] == target:
-                return initialPoint
-            if nums[finalPoint] == target:
-                return finalPoint
             currentWindowLength = finalPoint - initialPoint + 1
             currentWindowMidPoint = (currentWindowLength // 2) + initialPoint
             if (nums[currentWindowMidPoint] == target):
@@ -49,6 +43,7 @@ class Solution:
             elif (nums[currentWindowMidPoint] > target):
                 finalPoint = currentWindowMidPoint - 1
         return -1
+                
 
 print(Solution().search([-1,0,3,5,9,12], 9)) # 4        
 
