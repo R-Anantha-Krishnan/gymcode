@@ -1,14 +1,12 @@
 # GymCode 💪
 
-A comprehensive collection of **data structures and algorithms** implemented across multiple programming languages. This repository demonstrates proficiency in algorithm design, optimization, and multi-language development.
+A comprehensive collection of **data structures and algorithms** demonstrating proficiency in algorithm design, optimization, and problem-solving excellence.
 
 ---
 
 ## 🎯 Overview
 
-GymCode is a personal coding workout repository featuring implementations of classic algorithms and data structure problems. Each solution is optimized for correctness, readability, and efficiency—showcasing problem-solving skills across diverse tech stacks.
-
-**Languages Covered:** C, Go, Python
+GymCode is a personal coding workout repository featuring implementations of classic algorithms and data structure problems. Each solution is optimized for correctness, readability, and efficiency—showcasing strong problem-solving skills.
 
 ---
 
@@ -58,10 +56,9 @@ python search_insert_position.py
 ## 🎓 Skills Demonstrated
 
 ✅ **Algorithm Design** - Optimal solutions with focus on time/space complexity  
-✅ **Python Proficiency** - Clean, Pythonic implementations  
 ✅ **Code Quality** - Clean, readable, well-documented code  
 ✅ **Problem Solving** - LeetCode-style problem solving approach  
-✅ **Performance Optimization** - Binary search O(log n) implementations  
+✅ **Performance Optimization** - Efficient implementations with O(log n) complexity  
 
 ---
 
@@ -70,7 +67,7 @@ python search_insert_position.py
 - ✔️ Optimized for performance
 - ✔️ Well-commented for clarity
 - ✔️ Edge cases handled
-- ✔️ Follows Python best practices and conventions
+- ✔️ Follows best practices and conventions
 - ✔️ Tested with multiple test cases
 
 ---
@@ -79,9 +76,8 @@ python search_insert_position.py
 
 This repository showcases:
 - **Problem-Solving Ability** through classical algorithm implementations
-- **Language Versatility** across C, Go, and Python
 - **Code Excellence** with emphasis on efficiency and readability
-- **Continuous Learning** through algorithm mastery and multi-language development
+- **Continuous Learning** through algorithm mastery and optimization techniques
 
 ---
 
