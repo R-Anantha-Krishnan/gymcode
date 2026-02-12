@@ -31,17 +31,17 @@
 
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
-        initialPoint = 0
-        finalPoint = len(nums) - 1
-        while initialPoint <= finalPoint:
-            currentWindowLength = finalPoint - initialPoint + 1
-            currentWindowMidPoint = (currentWindowLength // 2) + initialPoint
-            if (nums[currentWindowMidPoint] == target):
-                return currentWindowMidPoint
-            elif (nums[currentWindowMidPoint] < target):
-                initialPoint = currentWindowMidPoint + 1
-            elif (nums[currentWindowMidPoint] > target):
-                finalPoint = currentWindowMidPoint - 1
+        initial_point = 0
+        final_point = len(nums) - 1
+        while initial_point <= final_point:
+            current_window_length = final_point - initial_point + 1
+            current_window_midpoint = (current_window_length // 2) + initial_point
+            if (nums[current_window_midpoint] == target):
+                return current_window_midpoint
+            elif (nums[current_window_midpoint] < target):
+                initial_point = current_window_midpoint + 1
+            elif (nums[current_window_midpoint] > target):
+                final_point = current_window_midpoint - 1
         return -1
                 
 
