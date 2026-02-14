@@ -40,19 +40,13 @@ class Solution:
     def nextGreatestLetter(self, letters: List[str], target: str) -> str:
         left = 0
         right = len(letters) - 1
-        while left <= right:
+        while left < right:
             mid = left + (right - left) // 2
-            if ord(letters[mid]) <= ord(target):
-                left = mid + 1
-            elif  ord(letters[mid]) > ord(target):
-                if mid == 0:
-                    return letters[0]
-                elif left == right:
-                    return letters[mid]
+            if letters[mid] > target:
                 right = mid
-            elif ord(letters[mid]) == ord(target) and mid < len(letters) - 1:
-                return letters[mid + 1]
-        return letters[0]
+            else:
+                left = mid + 1
+        return letters[left] if target < letters[left] else letters[0]
 
 
 print(Solution().nextGreatestLetter(["c","f","j"], "a")) # "c"
